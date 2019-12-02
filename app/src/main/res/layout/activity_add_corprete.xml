@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".corporate.AddCorporateActivity">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="25dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Add Corporate Information"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/corporate_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/corporate_website"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Website"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/corporate_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone Number"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/corporate_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Type"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/corporate_headquarters"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Headquarters"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/corporate_branches"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Branches"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/corporate_foundation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Foundation Year"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/corporate_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Location"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                <EditText
+                    android:id="@+id/corporate_industry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Industry"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                <EditText
+                    android:id="@+id/corporate_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Corporate Size"
+                    android:inputType="textMultiLine"
+                    android:maxLength="140"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:orientation="horizontal">-->
+                <!--<Button-->
+                    <!--android:id="@+id/corporate_image"-->
+                    <!--style="?android:textAppearanceSmall"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/ic_add_a_photo_black_24dp" />-->
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:textColorHint="@color/colorAccent"-->
+                    <!--app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">-->
+                    <!--<EditText-->
+                        <!--android:id="@+id/corporate_overview"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:inputType="textMultiLine"-->
+                        <!--android:hint="OverView"-->
+                        <!--/>-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:orientation="horizontal">-->
+                <!--<Button-->
+                    <!--android:id="@+id/add_dep_button"-->
+                    <!--style="?android:textAppearanceSmall"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/ic_add_black" />-->
+                <!--<android.support.v7.widget.AppCompatTextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:layout_marginBottom="1dp"-->
+                    <!--android:gravity="left"-->
+                    <!--android:layout_gravity="left"-->
+                    <!--android:text="Departments:"-->
+                    <!--android:textColor="@color/colorPrimary"-->
+                    <!--android:textSize="20dp" />-->
+            <!--</LinearLayout>-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <MultiAutoCompleteTextView
+                    android:id="@+id/corporate_dep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Department" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <MultiAutoCompleteTextView
+                    android:id="@+id/corporate_dep_overview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Department Overview" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColorHint="@color/colorAccent"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <MultiAutoCompleteTextView
+                    android:id="@+id/corporate_jobs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Department Jobs" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/add_corporate_Button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Add"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CareerTracker Admin</string>
+    <string name="title_activity_add_university">AddUniversityActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
